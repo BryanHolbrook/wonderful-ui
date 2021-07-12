@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <link rel='icon' href='%PUBLIC_URL%/favicon.ico' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='theme-color' content='#000000' />
+  <meta name='description' content='Wonderful User Interface By Bryan Holbrook' />
+  <link rel='apple-touch-icon' href='%PUBLIC_URL%/logo.png' />
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' />
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css" />
+
+
+  <title>Wonderful UI By Bryan Holbrook</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="overlay has-fade hide-for-desktop"></div>
+
+    <nav class="flex flex-jc-sb flex-ai-c container container--pall">
+      <a href="#" class="header__logo logo">
+        <img src="./assets/wonderful-stars.svg" height="auto" width="100%" alt="wonderful stars" />
+      </a>
+
+      <a href="#" id="btnHamburger" class="header__hamburger hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div class="header__links hide-for-mobile">
+        <a href="#">About Us</a>
+        <a href="#">Do This</a>
+        <a href="#">Login</a>
+        <a href="#" class="btn-blue primary-btn pulse" id="sign-up-btn">Sign Up</a>
+      </div>
+    </nav>
+
+    <div class="header__menu container--px has-fade hide-for-desktop">
+      <a href="#">About US</a>
+      <a href="#">Do This</a>
+      <a href="#">Login</a>
+      <a href="#">Sign Up</a>
+    </div>
+
+    <div class="header__social-icons has-fade hide-for-desktop">
+      <a href="#">
+        <i class='bx bxl-facebook-square'></i>
+      </a>
+      <a href="#">
+        <i class='bx bxl-twitter'></i>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__image"></div>
+      <div class="hero__text container--pall">
+        <h1>Development is <span class="text-softblue">80%</span> about fundamentals</h1>
+        <p>
+          Without strong attention to the basics, websites become brittle and eventually catch on fire. Therefore, we should always take the time to set ourselves up for success.
+        </p>
+        <a href="#" class="primary-btn btn-apricot">Yes, It’s True</a>
+        <a href="#" class="btn-softblue">Learn More > </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="timeline-sml">
+    <div class="hero">
+      <div class="container">
+        <div class="hero__text container--pall">
+          <p class="timeline-text">
+            Let’s follow a standard plan of attack:
+          </p>
+        </div>
+      </div>
+      <img class="timeline-med" src="./assets/timeline.svg" height="auto" width="100%" alt="timeline" />
+    </div>
+
+  </section>
+
+
+  <section class="features timeline-xlrg">
+    <div class="">
+      <div class="">
+        <p>
+          Here are some logos of companies who agree:
+        </p>
+        <img class="corp-logos" src="./assets/corp-logos/corp-logos-all-01.png" height="auto" width="75%" alt="corporate logos" />
+      </div>
+    </div>
+
+  </section>
+
+  <section class="features timeline-med">
+    <div class="hero__text__sub">
+      <h1>When it comes to building beautiful user interfaces,<br>
+        <span class="text-apricot">think about the user</span> - how will they feel?
+      </h1>
+    </div>
+  </section>
+
+  <section class="features timeline">
+    <div class="features__feature featureTap active">
+      <div class="feature__image"></div>
+      <div class="feature__text container--px--lrg">
+        <p>
+          <span class="text-apricot">Hey, wanna know something?</span>
+        </p>
+        <h3>You Are A Winner</h3>
+        <p>
+          You will code great things that are released into the wild to help companies make the world a better place.
+          The quality of your work will put a dent in the universe, and your name will become legendary.
+
+        </p>
+        <span><a href="#" class="btn-softblue">Let's Get Started > </a></span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="love features">
+
+    <div class="features__feature featureTap active">
+      <svg class="wave-top" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0C1A3B" fill-opacity="1" d="M0,128L80,154.7C160,181,320,235,480,213.3C640,192,800,96,960,74.7C1120,53,1280,107,1360,133.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+      </svg>
+    </div>
+
+  </section>
+
+  <section class="love features">
+    <div class="container--pall--lrg hero__text__final timeline-med">
+      <h1 class="">We can tell how much <span class="text-orange">you love to code,</span> because it speaks to<br /> us through our user experience.</h1>
+      <a href="#" class="primary-btn btn-blue">Learn More</a>
+    </div>
+
+    <div class="features timeline-med">
+      <img src="./assets/stars-01.svg" height="auto" width="75%" alt="stars" />
+
+    </div>
+
+  </section>
+
+  <script type="text/javascript" src="index.js"></script>
+
+
+
+</body>
+
+
+</html>

@@ -554,6 +554,7 @@ svg circle .pulse {
 }
 
 
+
 /* Features */
 
 .features {
@@ -721,7 +722,7 @@ svg circle .pulse {
 }
 
 .feature__text a {
-  /* display: none; */
+  cursor: pointer;
 }
 .feature__text a:hover {
   /* display: none; */

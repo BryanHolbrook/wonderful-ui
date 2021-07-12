@@ -1,12 +1,18 @@
 <svg width="737" height="179" viewBox="0 0 737 179" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="637" cy="116" r="8" fill="#98D5E3"/>
-<circle cx="703" cy="44" r="32.75" stroke="#FBBC79" stroke-width="2.5"/>
-<circle cx="16" cy="16" r="16" fill="#A1BDF3"/>
+<g id="Group 410">
+<g id="solutions providers_module_finding buyers_assets">
+<circle id="blue-ellipse-02" cx="637" cy="116" r="8" fill="#98D5E3"/>
+<circle id="apricot-ellipse-01" cx="703" cy="44" r="32.75" stroke="#FBBC79" stroke-width="2.5"/>
+<circle id="blue-ellipse-01" cx="16" cy="16" r="16" fill="#A1BDF3"/>
+</g>
+<g id="wonderful-stars-01">
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="325" y="149" width="31" height="30">
-<rect x="325" y="149.346" width="30.9371" height="29.3088" fill="url(#pattern0)"/>
+<rect id="Image PNG" x="325" y="149.346" width="30.9371" height="29.3088" fill="url(#pattern0)"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="321.469" y="146" width="38" height="36" fill="#FBBC79"/>
+<rect id="Color Mask" x="321.469" y="146" width="38" height="36" fill="#FBBC79"/>
+</g>
+</g>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
